@@ -3,11 +3,11 @@
 
 In this Project I have Created a Website which has a Payment Gateway Integration as a Intern at the Sparks Foundation using React Js and I have Deployed this website Successfully in **netlify**
 
-**click Below to visit the Website**
+**click to visit the Website**
+
 [live site](https://gauravthakur-sparks.netlify.app/)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
