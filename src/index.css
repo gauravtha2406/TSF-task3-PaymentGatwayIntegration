@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 2.4rem !important;
+  color: #2fccd0 !important;
+}
+
+.navbar li a {
+  font-size: 1.4rem !important;
+  text-transform: capitalize;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+.menu-active {
+  font-weight: bold;
+  border-bottom: 1px solid #3498db;
+}
+
+/* Home Section */
+@media screen and (min-width: 786px) {
+  #header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 60px;
+  }
+}
+
+#header h1,
+.about-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 45px;
+  color: black;
+  font-weight: 700;
+}
+
+.strong {
+  color: hsl(205, 77%, 27%);
+}
+#header h2 {
+  color: #4848db;
+  font-size: 22px;
+}
+
+.btn-donate-now {
+  text-decoration: none;
+  background: hsl(205, 78%, 60%);
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 0.1rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.header-img {
+  display: flex;
+
+  justify-content: center;
+}
+.header-img img {
+  width: 450px;
+}
+#header .animated {
+  animation: up-down 3s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY((-20px));
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY((-20px));
+  }
+}
+
+/* About US  */
+
+.about-header {
+  height: 100vh;
+  width: 100%;
+}
+.about-image img {
+  width: 100vw;
+  height: 40vh;
+}
+.about-side-image img {
+  width: 490px;
+}
+
+/* Contact Us */
+
+.contact-us {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  position: relative;
+}
+.contact-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);
+  z-index: -1;
+}
+
+/* Donate Section */
+.donate-section {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(107, 107, 107, 0.3),
+      rgba(107, 107, 107, 0.3)
+    ),
+    url(Images/d.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  position: relative;
+}
+.donate-section:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  opacity: 0.2;
+  z-index: -1;
+  background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+.first-heading {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+
+
+
+@media screen and (max-width: 786px) {
+  .footer {
+    margin-top: 120px;
+    background-color: #8566aa;
+    
+  }
+  .copyright p{
+    color: #fff;
+  }
+
+  .header-img {
+    margin-top: 190px;
+  }
+  .header-img img {
+    width: 370px;
+  }
+}
